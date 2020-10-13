@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facbook</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form >
+                    <table class="login-form">
+                        <tr>
+                            <td><label class="form-label">Email or Phone</label></td>
+                            <td><label class="form-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="form-text" name=email for='ename'></input></td>
+                            <td><input type="text" class="form-text" name=password for='pass'></input></td>
+                            <td><input class="form-btn" type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgot" href="forgot.html">Forgot account?</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="container2">
+            <div class="content-left"></div>
+            <div class="content-middle"><br>
+                <div id="divh1">Create a New Account</div><br>
+                <div id="divh2">It’s quick and easy.</div><br>
+            <div class="form-body">
+                <form class="form-body" action="hello2.html" id="form-body">
+                <input name="fname" id="fname" type="text" name="fname" placeholder="First Name">
+                <input name="lname" id="lname" type="text" name="lname" placeholder="Last Name">
+                <input name="phone" id="phone" type="text" name="phone" placeholder="Mobile Number or Email">
+                <input name="passwrd" id="passwrd" type="password" name="passwrd" placeholder="New Password">
+                <div class="bday-text">Birthday</div>
+                   <div><input id="birthday" type="date" name="birthday">
+                </div>
+                <div class="bday-text">Gender</div><br><br>
+                <br>
+                <div class="g1">
+                    <input id="female" type="radio" name="gender" value="female">   
+                    <label for="gender">Female</label>
+                    <input id="male" type="radio" name="gender" value="male">
+                    <label  for="gender">Male</label>
+                    <input id="custom" type="radio" name="gender" value="custom">
+                    <label  for="gender">Custom</label>
+                </div>
+                <div class="clear"></div>
+               <p class="p-content">By clicking Sign Up, you agree to our Terms, Data Policy and <br>
+                 Cookies Policy. You may receive SMS Notifications from us and <br>
+                 can opt out any time.</p>
+                 <br>
+                 <div class="clear"></div>
+                 <div>
+                     <input class="sign-btn" type="submit" value="Sign Up">
+                 </div>
+            </form>
+            </div></div>
+            <div class="content-right"></div>
+            <div class="clear"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+<script src="fbScript.js"></script>
+</body>
+</html>
